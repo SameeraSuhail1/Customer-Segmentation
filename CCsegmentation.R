@@ -1,5 +1,5 @@
 
-datacc<-read.csv("CC GENERAL.csv")
+datacc<-read.csv("CC-GENERAL.csv")
 
 summary(datacc)
 nmiss=function(x){  #function to find number of missing values in each variable of the dataset 
